@@ -27,4 +27,3 @@ function submitForm(event) {
     messageElement.style.display = "block";
   }
 }
-
