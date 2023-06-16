@@ -7,9 +7,7 @@ ready(() => {
   document.querySelector(".header").style.height = window.innerHeight + "px";
 });
 
-function submitForm(event) {
-  event.preventDefault();
-
+function submitForm() {
   var name = document.getElementById("name").value;
   var email = document.getElementById("email").value;
   var phone = document.getElementById("phone").value;
